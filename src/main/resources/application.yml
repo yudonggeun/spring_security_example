@@ -1,0 +1,12 @@
+spring:
+  redis:
+    host: localhost
+    port: 6379
+
+server:
+  port: ${port}
+  servlet:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
